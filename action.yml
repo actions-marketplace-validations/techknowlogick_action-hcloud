@@ -1,12 +1,12 @@
-name: 'GitHub Action for Vultr - vultr-cli'
-description: 'Use vultr-cli to manage your Vultr resources.'
+name: 'GitHub Action for Hetzner - hcloud'
+description: 'Use hcloud to manage your Hetzner cloud resources.'
 author: 'techknowlogick <techknowlogick@gitea.io>'
 inputs:
   version:
-    description: 'Version of vultr-cli to install'
+    description: 'Version of hcloud to install'
     default: 'latest'
   token:
-    description: 'Vultr API Key'
+    description: 'Hetzner API Key'
     required: true
 runs:
   using: 'node12'
